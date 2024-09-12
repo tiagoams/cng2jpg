@@ -21,7 +21,8 @@ or in Windows
 python cng2jpg.py --src C:\users\myuser\CNG\discs  --dst C:\users\myuser\CNG\discs\images [--remove] [--merge]
 ```
 
-Use --remove to get rid of .cng files as they are converted, to avoid needing extra 40+Gb of space for both jpg and cng.
+Use --remove to get rid of .cng files as they are converted, to avoid needing extra 40+GB of space for both jpg and cng.
+
 Use --merge to merge double spread pages into single files. Due to erros in the original scans the pages don't align perfectly.
 
 ## References
