@@ -62,6 +62,7 @@ def convert_all(src_path, dst_path, remove=False, merge=False):
 
                     # Test if left page exists, otherwise skip merge
                     if os.path.isfile(leftpage_filename):
+                        print ('merge into ',dst_filename)
                         twopage = merge_images(leftpage_filename, rightpage_filename)
 
                         twopage.save(twopage_filename)
