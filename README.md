@@ -1,6 +1,14 @@
 # cng2jpg
 Convert "Complete National Geographic" CNG files to JPG using python
 
+## Requirements
+
+Python 3 with `pillow` package. This package can be installed using conda:
+
+```
+conda install pillow
+```
+
 ## Basic usage
 
 ### copying from CD into local hard drive:
